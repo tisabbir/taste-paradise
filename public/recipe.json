@@ -1,7 +1,7 @@
 [
   {
     "recipe_id": "1",
-    "recipe_image": "https://ibb.co/Hrm7sxv",
+    "recipe_image": "https://i.ibb.co/hKpsjZ5/Chicken-fry.jpg",
     "recipe_name": "Spicy Chicken Stir-Fry",
     "short_description": "A quick and flavorful stir-fry with tender chicken and vibrant vegetables.",
     "ingredients": [
@@ -15,7 +15,7 @@
   },
   {
     "recipe_id": "2",
-    "recipe_image": "https://ibb.co/c1ZwyLg",
+    "recipe_image": "https://i.ibb.co/kxwJG1H/Mushroom-Risotto.jpg",
     "recipe_name": "Mushroom Risotto",
     "short_description": "Creamy and comforting risotto packed with earthy mushrooms.",
     "ingredients": [
@@ -29,7 +29,7 @@
   },
   {
     "recipe_id": "3",
-    "recipe_image": "https://ibb.co/fH4jq38",
+    "recipe_image": "https://i.ibb.co/KWFTbtN/Pizza.jpg",
     "recipe_name": "Classic Margherita Pizza",
     "short_description": "Authentic Italian pizza with fresh tomatoes, mozzarella, and basil.",
     "ingredients": [
@@ -43,7 +43,7 @@
   },
   {
     "recipe_id": "4",
-    "recipe_image": "https://ibb.co/n8nLt2L",
+    "recipe_image": "https://i.ibb.co/CsMHDdH/toast-egg.jpg",
     "recipe_name": "Avocado Toast with Poached Egg",
     "short_description": "A nutritious and satisfying breakfast or snack featuring creamy avocado and a perfectly poached egg.",
     "ingredients": [
@@ -57,7 +57,7 @@
   },
   {
     "recipe_id": "5",
-    "recipe_image": "https://ibb.co/yV7NBBX",
+    "recipe_image": "https://i.ibb.co/BLXss1k/Pasta.jpg",
     "recipe_name": "Pasta Primavera",
     "short_description": "A light and fresh pasta dish packed with seasonal vegetables and tossed in a lemony sauce.",
     "ingredients": [
@@ -71,7 +71,7 @@
   },
   {
     "recipe_id": "6",
-    "recipe_image": "https://ibb.co/2hp8Nxn",
+    "recipe_image": "https://i.ibb.co/QQx8dLb/tabbouleh-salad.jpg",
     "recipe_name": "Quinoa Salad with Roasted Vegetables",
     "short_description": "A hearty and nutritious salad featuring fluffy quinoa and a medley of roasted vegetables.",
     "ingredients": [
