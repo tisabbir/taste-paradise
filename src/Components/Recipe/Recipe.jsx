@@ -21,7 +21,11 @@ const Recipe = ({ recipe, handleWantToCook }) => {
 
       <ul className="para">
         {ingredients.map((item, idx) => {
-          return <li key={idx}>{item}</li>;
+          return (
+            <li className="list-disc ml-6" key={idx}>
+              {item}
+            </li>
+          );
         })}
       </ul>
 
