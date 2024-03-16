@@ -29,7 +29,7 @@ function App() {
         <OurRecipeHeader></OurRecipeHeader>
         <div className="flex flex-col lg:flex-row justify-between gap-4 ">
           <Recipes handleWantToCook={handleWantToCook}></Recipes>
-          <Sidebar recipez={recipez}></Sidebar>
+          <Sidebar recipez={recipez} setRecipez={setRecipez}></Sidebar>
         </div>
       </div>
     </>
