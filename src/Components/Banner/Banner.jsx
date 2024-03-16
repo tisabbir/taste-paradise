@@ -17,7 +17,7 @@ const Banner = () => {
               <button className="btn bg-[#0BE58A] px-6 rounded-full border-none ">
                 Explore Now
               </button>
-              <button className="btn text-white border-2 border-white rounded-full">
+              <button className="btn btn-ghost text-white border-2 border-white rounded-full">
                 Our Feedback
               </button>
             </div>
