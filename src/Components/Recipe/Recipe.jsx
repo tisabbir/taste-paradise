@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { FaFireAlt, FaRegClock } from "react-icons/fa";
 const Recipe = ({ recipe, handleWantToCook }) => {
   const {
-    recipe_id,
     recipe_image,
     recipe_name,
     short_description,
