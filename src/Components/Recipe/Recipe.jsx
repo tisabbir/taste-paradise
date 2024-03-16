@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { FaFireAlt, FaRegClock } from "react-icons/fa";
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handleWantToCook }) => {
   const {
     recipe_id,
     recipe_image,
@@ -10,7 +10,6 @@ const Recipe = ({ recipe }) => {
     preparing_time,
     calories,
   } = recipe;
-  console.log(recipe_image);
   return (
     <div className="p-6 border-2 border-solid border-[#28282833] rounded-2xl space-y-5">
       <img className="rounded-2xl" src={recipe_image} alt="" />
@@ -34,7 +33,10 @@ const Recipe = ({ recipe }) => {
         <FaFireAlt></FaFireAlt>
         <p> {calories} calories</p>
       </div>
-      <button className="btn btn-ghost bg-[#0BE58A] rounded-full ">
+      <button
+        className="btn btn-ghost bg-[#0BE58A] rounded-full "
+        onClick={handleWantToCook}
+      >
         Want to Cook
       </button>
     </div>

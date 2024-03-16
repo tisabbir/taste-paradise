@@ -16,7 +16,7 @@ const Navbar = () => {
           <button className="btn btn-ghost">About</button>
         </div>
         <div className="flex-none gap-2">
-          <div className="input input-bordered w-24 md:w-auto flex justify-between items-center gap-4 text-2xl rounded-full bg-[#150b2b0d]">
+          <div className="input input-bordered w-24 md:w-auto hidden lg:flex justify-between items-center gap-4 text-2xl rounded-full bg-[#150b2b0d] ">
             <CiSearch></CiSearch>
             <input type="text" placeholder="Search" className="border-none" />
           </div>
