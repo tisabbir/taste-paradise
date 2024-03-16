@@ -9,7 +9,15 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 function App() {
   const [recipez, setRecipez] = useState([]);
   const handleWantToCook = (recipe) => {
-    console.log(recipe);
+    if (recipez.includes(recipe, 0)) {
+      document.getElementById("the-toast").classList.remove("hidden");
+      document.getElementById("the-toast").classList.add("visible");
+      setTimeout(() => {
+        document.getElementById("the-toast").classList.remove("visible");
+        document.getElementById("the-toast").classList.add("hidden");
+      }, 2000);
+      return;
+    }
     const newRecipez = [...recipez, recipe];
     setRecipez(newRecipez);
   };

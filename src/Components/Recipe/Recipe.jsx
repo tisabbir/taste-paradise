@@ -35,7 +35,9 @@ const Recipe = ({ recipe, handleWantToCook }) => {
       </div>
       <button
         className="btn btn-ghost bg-[#0BE58A] rounded-full "
-        onClick={handleWantToCook}
+        onClick={() => {
+          handleWantToCook(recipe);
+        }}
       >
         Want to Cook
       </button>
@@ -46,5 +48,6 @@ const Recipe = ({ recipe, handleWantToCook }) => {
 Recipe.propTypes = {
   recipe: PropTypes.object.isRequired,
   item: PropTypes.string,
+  handleWantToCook: PropTypes.func,
 };
 export default Recipe;
